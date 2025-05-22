@@ -5,3 +5,5 @@ Passo a Passo para rodar a TechSyn!
 2 - No terminal integrado digitar "Npm install"
 
 3 - Ainda no terminal "Npm Run Dev"
+
+4 - Baixar a pasta "Assets"

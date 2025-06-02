@@ -1,12 +1,20 @@
-# React + Vite
+📁 Pasta assets (arquivos pesados)
+A pasta assets, que contém imagens, ícones e outros recursos visuais utilizados no projeto, não está incluída neste repositório devido ao seu tamanho elevado.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Para utilizar o projeto corretamente, siga os passos abaixo:
 
-Currently, two official plugins are available:
+1 - Baixe a pasta assets através do link abaixo:
+👉 [Download da pasta assets via Google Drive](https://drive.google.com/drive/folders/1uVlStEk52cGgdr5Nl_GhMq7Vm-7kfiLx?usp=sharing)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2 - Após o download, extraia e mova a pasta assets para dentro da pasta src do projeto, mantendo a seguinte estrutura:
 
-## Expanding the ESLint configuration
+TechSyn/
+└── src/
+    ├── assets/       ← cole aqui a pasta baixada
+    ├── App.js
+    └── ...
+    
+3 - Abra o projeto no Visual Studio Code (ou outro editor) e utilize normalmente.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⚠️ Atenção: a pasta assets está listada no .gitignore para evitar o versionamento de arquivos pesados neste repositório.
+
